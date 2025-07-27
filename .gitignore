@@ -1,0 +1,13 @@
+# Ignore node modules
+client/node_modules/
+server/node_modules/
+
+# Logs
+*.log
+
+# dotenv environment files
+.env
+
+# Build output
+client/build/
+client/dist/

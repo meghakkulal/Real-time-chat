@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  text-align: center;
+  color: #333;
+}
+
+.join-container {
+  margin-top: 150px;
+  background: white;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.join-container input {
+  padding: 12px;
+  font-size: 18px;
+  width: 80%;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+.join-container button {
+  padding: 12px 24px;
+  background-color: #ff6600;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.join-container button:hover {
+  background-color: #e65c00;
+}
+
+.chat-container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.messages {
+  height: 350px;
+  overflow-y: scroll;
+  border: 1px solid #ddd;
+  padding: 15px;
+  background: #fdfdfd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.message-item {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 75%;
+  word-wrap: break-word;
+  display: inline-block;
+}
+
+.my-msg {
+  background-color: #d1f7c4;
+  float: right;
+  text-align: right;
+  clear: both;
+}
+
+.other-msg {
+  background-color: #e0ecff;
+  float: left;
+  text-align: left;
+  clear: both;
+}
+
+.timestamp {
+  display: block;
+  font-size: 0.75rem;
+  color: #777;
+  margin-top: 5px;
+  text-align: right;
+}
+
+.reply {
+  font-size: 0.8rem;
+  background-color: #fff3cd;
+  margin-top: 8px;
+  padding: 5px;
+  border-left: 4px solid #ffcc00;
+  border-radius: 4px;
+}
+
+.replying-to {
+  background: #fff6e5;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-left: 4px solid orange;
+  border-radius: 5px;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+.input-container button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #3399ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #2b8be0;
+}

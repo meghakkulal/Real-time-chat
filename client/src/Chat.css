@@ -1,0 +1,91 @@
+.chat-container {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.messages {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.message {
+  padding: 8px;
+  margin: 4px 0;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  position: relative;
+}
+
+.reply-to {
+  font-size: 0.85em;
+  color: #555;
+  margin-bottom: 4px;
+  padding-left: 10px;
+  border-left: 3px solid #ccc;
+}
+
+.reply-btn {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 0.85em;
+  color: blue;
+}
+
+.reply-preview {
+  background-color: #eee;
+  padding: 6px 10px;
+  border-left: 4px solid #888;
+  margin-bottom: 8px;
+}
+
+.chat-form {
+  display: flex;
+  gap: 10px;
+}
+
+.chat-form input {
+  flex: 1;
+  padding: 10px;
+}
+
+.chat-form button {
+  padding: 10px 16px;
+}
+.chat-container {
+  width: 100%;
+  padding: 20px;
+}
+
+.messages {
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.reply {
+  font-size: 0.9em;
+  color: gray;
+  margin-left: 10px;
+}
+
+.reply-info {
+  background-color: #f1f1f1;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-left: 4px solid #007bff;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+}
